@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap 4.5 CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!--Fonte google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
+    <!--Icone-->
+    <link rel="icon" href="assets/images/lista-de-tarefas.png">
+    <!--Css nativo-->
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Lista de tarefas - To do list</title>
+</head>
+<body>
+    <menu>
+        <section id="to-do-list" class="to-do-list">
+            <div class="agenda-h1">
+                <h1>Agenda semanal</h1>
+            </div>
+            <p id="hoje"></p>
+            <p id="semana"></p>
+            <div class="card position">
+                <div class="card-header">
+                    <h5 class="card-title">Domingo</h5>
+                    <span id="domingo" class="span-dia"></span>
+                </div>
+                <textarea name="mensagem" id="mensagem" cols="35" rows="7" placeholder="Escreva aqui..."></textarea>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title">Segunda</h5>
+                    <span id="segunda" class="span-dia"></span>
+                </div>
+                <textarea name="mensagem" id="mensagem" cols="35" rows="7" placeholder="Escreva aqui..."></textarea>
+            </div>
+            <div class="card position">
+                <div class="card-header">
+                    <h5 class="card-title">Terça</h5>
+                    <span id="terca" class="span-dia"></span>
+                </div>
+                <textarea name="mensagem" id="mensagem" cols="35" rows="7" placeholder="Escreva aqui..."></textarea>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title">Quarta</h5>
+                    <span id="quarta" class="span-dia"></span>
+                </div>
+                <textarea name="mensagem" id="mensagem" cols="35" rows="7" placeholder="Escreva aqui..."></textarea>
+            </div>
+            <div class="card position">
+                <div class="card-header">
+                    <h5 class="card-title">Quinta</h5>
+                    <span id="quinta" class="span-dia"></span>
+                </div>
+                <textarea name="mensagem" id="mensagem" cols="35" rows="7" placeholder="Escreva aqui..."></textarea>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title">Sexta</h5>
+                    <span id="sexta" class="span-dia"></span>
+                </div>
+                <textarea name="mensagem" id="mensagem" cols="35" rows="7" placeholder="Escreva aqui..."></textarea>
+            </div>
+            <div class="card position">
+                <div class="card-header">
+                    <h5 class="card-title">Sábado</h5>
+                    <span id="sabado" class="span-dia"></span>
+                </div>
+                <textarea name="mensagem" id="mensagem" cols="35" rows="7" placeholder="Escreva aqui..."></textarea>
+            </div>
+            <button id="salvar" class="btn-primary btn" data-toggle="modal" data-target="#staticBackdrop">Salvar</button>
+            <!-- Exibe a mensagem de sucesso -->
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <img src="assets/images/lista-de-tarefas.png" alt="salvo">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Alterações realizadas com sucesso!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+    </menu>
+    <!--Bootstrap 4.5 JS-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="assets/main.js"></script>
+</body>
+</html>

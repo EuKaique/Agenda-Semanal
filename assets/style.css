@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    outline: none;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../assets/images/fundo.jpg');
+    background-size: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+.agenda-h1{
+    background-color: #FFF;
+    width: 35%;
+    display: flex;
+    border-radius: .5rem;
+    justify-content: center;
+    position: relative;
+    padding: .5rem 1rem;
+    left: 30%;
+    margin-bottom: 2%;
+}
+.agenda-h1 h1{
+    font-size: 2rem;
+    font-weight: 300;
+    font-style: italic;
+    color: chocolate;
+}
+#semana{
+    text-align: center;
+    margin-left: -5%;
+    margin-top: -1.2%;
+    font-weight: 600;
+}
+#hoje{
+    text-align: center;
+    margin-left: -5%;
+    margin-top: 0;
+    font-style: italic;
+}
+.span-dia{
+    display: flex;
+    float: right;
+    margin-top: -20%;
+    color: #000;
+    background-color: #FFF;
+    padding: .5rem;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    border-top: 5px solid #F00;
+    font-weight: 600;
+}
+.card{
+    width: 16rem;
+    display: inline-block;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: .2s;
+    box-shadow: .4rem .2rem .2rem #AAA;
+}
+.card-title{
+    text-align: center;
+    font-size: 1.2rem;
+    color: #FFF;
+}
+.card-header{
+    background-color: chocolate;
+}
+textarea{
+    border: none;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    font-size: .8rem;
+    padding: .2rem .5rem;
+}
+.btn{
+    display: inline-block;
+    margin-bottom: 15%;
+    margin-left: 7.4%;
+    padding: 1rem;
+}
+.modal-header img{
+    margin-left: 46%;
+}
+.modal-body p{
+    text-align: center;
+}
+
+/* RESPONSIVO */
+@media screen and (max-width: 768px){
+    .agenda-h1 h1{
+        font-size: 1.4rem;
+        font-weight: 300;
+        font-style: italic;
+        color: chocolate;
+    }
+    .position{
+        width: 16rem;
+        display: inline-block;
+        margin-right: 2%;
+        margin-left: 10%;
+        margin-bottom: 2%;
+    }
+}

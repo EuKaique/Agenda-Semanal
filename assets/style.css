@@ -76,6 +76,9 @@ textarea{
     font-size: .8rem;
     padding: .2rem .5rem;
 }
+.btn-salvar{
+    display: inline-block;
+}
 .btn{
     display: inline-block;
     margin-bottom: 15%;
@@ -103,5 +106,89 @@ textarea{
         margin-right: 2%;
         margin-left: 10%;
         margin-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .agenda-h1 h1 {
+        font-size: 1rem;
+        font-weight: 300;
+        font-style: italic;
+        color: chocolate;
+    }
+    .position {
+        width: 16rem;
+        display: inline-block;
+        margin-right: 2%;
+        margin-left: 23%;
+        margin-bottom: 2%;
+    }
+    .position2 {
+        width: 16rem;
+        display: inline-block;
+        margin-right: 2%;
+        margin-left: 23%;
+        margin-bottom: 2%;
+    }
+    .btn-salvar{
+        display: flex;
+        margin-left: 51%;
+    }
+}
+
+@media screen and (max-width: 452px){
+    .agenda-h1 {
+        background-color: #FFF;
+        width: 50%;
+        display: flex;
+        border-radius: .5rem;
+        justify-content: center;
+        position: relative;
+        padding: .5rem 1rem;
+        left: 24%;
+        margin-bottom: 2%;
+    }
+    .position {
+        width: 16rem;
+        display: inline-block;
+        margin-right: 2%;
+        margin-left: 14%;
+        margin-bottom: 2%;
+    }
+    .position2 {
+        width: 16rem;
+        display: inline-block;
+        margin-right: 2%;
+        margin-left: 14%;
+        margin-bottom: 2%;
+    }
+    .btn {
+        display: inline-block;
+        margin-bottom: 15%;
+        margin-left: 9%;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 384px){
+    .position {
+        width: 16rem;
+        display: inline-block;
+        margin-right: 2%;
+        margin-left: 8%;
+        margin-bottom: 2%;
+    }
+    .position2 {
+        width: 16rem;
+        display: inline-block;
+        margin-right: 2%;
+        margin-left: 8%;
+        margin-bottom: 2%;
+    }
+    .btn {
+        display: inline-block;
+        margin-bottom: 15%;
+        margin-left: 14%;
+        padding: 1rem;
     }
 }

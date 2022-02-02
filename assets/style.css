@@ -195,7 +195,7 @@ textarea{
 
 @media screen and (max-width: 360px){
     *{
-        overflow-x: hidden;
+        overflow: hidden;
     }
     .agenda-h1 {
         background-color: #FFF;

@@ -192,3 +192,34 @@ textarea{
         padding: 1rem;
     }
 }
+
+@media screen and (max-width: 360px){
+    *{
+        overflow-x: hidden;
+    }
+    .agenda-h1 {
+        background-color: #FFF;
+        width: 58%;
+        display: flex;
+        border-radius: .5rem;
+        justify-content: center;
+        position: relative;
+        padding: .5rem 1rem;
+        left: 18%;
+        margin-bottom: 2%;
+    }
+    .position {
+        width: 16rem;
+        display: inline-block;
+        margin-right: 2%;
+        margin-left: 4%;
+        margin-bottom: 2%;
+    }
+    .position2 {
+        width: 16rem;
+        display: inline-block;
+        margin-right: 2%;
+        margin-left: 4%;
+        margin-bottom: 2%;
+    }
+}

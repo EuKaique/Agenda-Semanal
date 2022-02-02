@@ -194,9 +194,6 @@ textarea{
 }
 
 @media screen and (max-width: 360px){
-    *{
-        overflow: hidden;
-    }
     .agenda-h1 {
         background-color: #FFF;
         width: 58%;
@@ -207,6 +204,20 @@ textarea{
         padding: .5rem 1rem;
         left: 18%;
         margin-bottom: 2%;
+        overflow: hidden;
+    }
+    .span-dia{
+        display: flex;
+        float: right;
+        margin-top: -20%;
+        color: #000;
+        background-color: #FFF;
+        padding: .5rem;
+        border-bottom-left-radius: .5rem;
+        border-bottom-right-radius: .5rem;
+        border-top: 5px solid #F00;
+        font-weight: 600;
+        overflow: hidden;
     }
     .position {
         width: 16rem;
@@ -214,6 +225,7 @@ textarea{
         margin-right: 2%;
         margin-left: 4%;
         margin-bottom: 2%;
+        overflow: hidden;
     }
     .position2 {
         width: 16rem;
@@ -221,5 +233,6 @@ textarea{
         margin-right: 2%;
         margin-left: 4%;
         margin-bottom: 2%;
+        overflow: hidden;
     }
 }
